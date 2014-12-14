@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Curso de:</h1>
+					<h2>Sistemas operativos II</h2>
+					<h3>DISTRIBUCIONES DE LINUX</h3>
+					<p>
+						<small>Javier Lizarraga</small>
+					</p>
+					<img src="img/DistribucionesLinux.jpg"> 
+
+
+				</section>
+
+
+				<!-- Example of nested vertical slides -->
+				<section>
+						<h2>Origenes de LINUX</h2>
+						<p>
+							<ul>
+							<li>Linux surgió para cubrir la necesidad profesional de utilizar un sistema UNIX en entornos pequeños.
+							<li>Habitualmente se usa LINUX como plataforma UNIX barata. No es fácil tener una estación potente en casa, pero sí disponer de un sencillo PC en el que podemos instalar LINUX y aprender sobre entorno UNIX.
+							<li>Las distribuciones de LINUX giran entorno a una misma serie de componentes desarrollados por miles de personas en todo el mundo.
+						</ul>
+						</p>
+				</section>
+
+				<section>
+						<h2>Distribuciones de LINUX (I)</h2>
+						<p>
+							<ul>
+							<li>Linux es un código abierto, por tal motivo, diversas compañías han desarrollado versiones propias con pequeñas diferencias de unas a otras. De aquí surge el término DISTRIBUCIÓN.
+							<li>Todas las distribuciones abarcan los paquetes estándares (kernel, entorno gráfico, servidor web, …), pero cada distribuidor se encarga de desarrollar un sistema particular de herramientas (instalación, administración, …), lo que hace distintas unas de otras, dotándolas de mayor usabilidad, facilidad de manejo y prestaciones.
+						</ul>
+						</p>
+				</section>
+				<section>
+						<h2>Distribuciones de LINUX (II)</h2>
+						<p>
+							
+							<ul>
+								<li>Los elementos que hay que tener un cuenta a la hora de elegir una distribución son:
+									<ul>
+										<li>El proceso de instalación: Facilidad a la hora de configurar el hardware de la máquina
+										<li>El software suministrado: Una cuidada selección de software adicional y mayor facilidad de uso.
+										<li>La documentación: Debe ofrecer consejos para el recién llegado y explicaciones de las características más complejas para usuarios más versados.
+									</ul>
+							</ul>
+						</p>
+				</section>
+				<section>
+						<h2>Sistemas de paquetes: RPM y DPKG</h2>
+						<p>							
+							<ul>
+							<li>Un paquete es un solo archivo que contiene todo lo necesario para instalar y configurar correctamente un programa en nuestro sistema.
+							<li>Surgió de la dificultad por parte de los usuarios de compilar el código fuente del programa.
+							<li>Hay dos tipos:
+								<ul>
+									<li>Red Hat Package Manager (RPM)
+									<li>Debian Packages (DPKG)
+								</ul>
+						</ul>
+						</p>
+				</section>
+				<section>
+						<h2>¿Qué distribución escoger? (I)</h2>
+						<p>									
+							<ul>
+								<li>Los parámetros determinantes dependientes de una distribución son:
+									<ul>
+										<li>Detección hardware: facilidad del sistema para detectar y configurar dispositivos.
+										<li>Rendimiento y robustez del sistema.
+										<li>Desarrollo de la distribución: desarrollo de parches, evolución de la distribución, ...
+										<li>Actualización de sistema: actualización automática o manual de los paquetes.
+									</ul>
+							</ul>
+						</p>
+				</section>
+
+				<section>
+						<h2>¿Qué distribución escoger? (II)</h2>
+						<p>									
+							<ul>
+								<li>Los parámetros determinantes dependientes de la persona que lo vaya a utilizar son:
+									<ul>
+										<li>Finalidad del sistema: estación de trabajo o servidor.
+										<li>Conocimientos del usuario: facilidad para desenvolverse en el sistema (compilación, configuración, ofimática, …).
+										<li>Facilidad de uso: entorno gráfico, herramientas para la configuración de servicios, …
+										<li>Software adicional.
+									</ul>
+							</ul>
+						</p>
+				</section>
+
+				<section>
+						<h2>Red Hat</h2>
+						<p>					
+							<ul>
+							<li>Es la distribución que más domina el mercado.
+							<li>Cubre las necesidades del mercado con sus versiones Standard, Deluxe y Server.
+							<li>Fácil instalación: detección automática del hardware, entorno gráfico …
+							<li>Multitud de aplicaciones: Ofimática, juegos, ...
+							<li>Dificultad para la actualización.
+							<li>Detección erronea de hardware específico.
+						</ul>
+						<img src="img/RedHat.jpg"> 
+						</p>
+				</section>
+				<section>
+						<h2>SuSE</h2>
+						<p>					
+							<ul>
+							<li>Tiene clara orientación a cubrir el sector de estaciones de trabajo.
+							<li>Gran cantidad de software.
+							<li>Extensa documentación incluida.
+							<li>Fácil instalación: detección automática del hardware, entorno gráfico, herramienta Yast, …
+							<li>Los RPM de otras distribuciones resultan problemáticos.
+							<li>Requiere muchos recursos.
+						</ul>
+						<img src="img/Suse.png"> 
+						</p>
+				</section>
+				<section>
+						<h2>Debian</h2>
+						<p>					
+							<ul>
+							<li>Distribución producida por una organización sin fines de lucro.
+							<li>Robustez en el sistema de paquetes de fácil actualización.
+							<li>Sumamente rápida y fiable.
+							<li>La configuración del hardware es complicada.
+							<li>Complejidad para nuevos usuarios por falta de herramientas de configuración.
+						</ul>
+						<img src="img/Debian.png"> 
+						</p>
+				</section>
+
+				<section>
+						<h2>CentOS</h2>
+						<p>					
+							<ul>
+							<li>Útil para su utilización en el montaje de servidores Web.
+							<li>Robustez en el sistema de paquetes de fácil actualización.
+							<li>La configuración del hardware es complicada.
+							<li>Complejidad para nuevos usuarios por falta de herramientas de configuración.							
+						</ul>
+						<img src="img/Centos.png"> 
+						</p>
+				</section>
+
+
+				<section>
+						<h2>Bibliografia</h2>
+						<p>					
+							<ul>
+							<li>Revistas del sector informático:
+								<ul>
+							<li>PCWORLD
+							<li>PCPLUS
+								</ul>
+							<li>Red Hat: <a href="http://www.redhat.es">www.redhat.es</a>
+							<li>Suse: <a href="http://www.suse.com">www.suse.com</a>
+							<li>Debian: <a href="http://www.debian.org">www.debian.org</a>, <a href="http://www.laespiral.org">www.laespiral.org</a>
+							<li>Corel Linux: <a href="http://www.centos.org/">http://www.centos.org/</a>
+						</ul>
+						</p>
+				</section>
+
+
+					
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
